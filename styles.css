@@ -56,3 +56,9 @@ h1{
     margin: 0px;
     z-index: 1;
 }
+#advert{
+    position: absolute;
+    top: 150px;
+    margin: 0px;
+    z-index: 1;
+}
