@@ -22,16 +22,10 @@ body{
     padding-right: 20px;
     background: linear-gradient(to bottom, rgb(206, 204, 204), rgb(135, 134, 134));
     box-shadow: inset 0 2px 3px rgba(255, 255, 255, 0.7), 0 6px 10px rgba(0,0,0,0.3);
-    
-    
 }
 #navBar a:hover{
     background: linear-gradient(to bottom, rgb(191, 189, 189), rgb(184, 182, 182));
     box-shadow: inset 0 2px 3px rgba(255, 255, 255, 0.7), 0 6px 10px rgba(0,0,0,0.3);
-}
-#navBar a:active{
-    transform: scale(1.05);
-    transition: 0.1s ease-in-out;
 }
 #active a{
     background: linear-gradient(to bottom, rgb(231, 230, 230), rgb(184, 182, 182));
@@ -57,6 +51,20 @@ h1{
     width: 1440px;
     z-index: 10;
 }
+#homePic{
+    border-radius: 50%;
+}
+#homeBody{
+    z-index: 5;
+    position: relative;
+    top: 78px;
+    padding: 10px 10px;
+    width:1400px;
+    height: 500px;
+    margin: 0px;
+    font-size:x-large;
+    text-align: center;
+}
 #mainBody{
     z-index: 5;
     position: relative;
@@ -77,7 +85,7 @@ h1{
 }
 #advert{
     position: absolute;
-    top: 150px;
+    top: 120px;
     margin: 0px;
     z-index: 1;
 }
@@ -86,5 +94,16 @@ h1{
     left: 10px;
     top: 100px;
     display: block;
-
+}
+#website_link{
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+#extra_text{
+    position: relative;
+    top: 100px;
+    left: 150px;
+    color:navy;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
