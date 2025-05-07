@@ -35,6 +35,33 @@ body{
     background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(184, 182, 182));
     box-shadow: inset 0 2px 3px rgba(255, 255, 255, 0.7), 0 6px 10px rgba(0,0,0,0.3);
 }
+#searchbar{
+    position: relative;
+    margin-top: 8px;
+    left: 100px;
+    width: 250px;
+    height: 25px;
+    border-radius: 30px;
+    padding-left: 3px;
+}
+#searchButt{
+    position: relative;
+    margin-top: 8px;
+    left: 100px;
+    height: 25px;
+    color:whitesmoke;
+    background-color: rgb(3, 34, 132);
+    border-radius: 30px;
+}
+#tacoCounter{
+    position:relative;
+    left:10px;
+    height: 50px;
+    font-size: large;
+    background-color: rgb(3, 34, 132);
+    color:whitesmoke;
+    box-shadow: 0 2px 3px grey;
+}
 h1{
     text-align: center;
     color:darkslategrey;
@@ -48,7 +75,7 @@ h1{
     position:fixed;
     left: 0px;
     top: 0px;
-    width: 1440px;
+    width: 100%;
     z-index: 10;
 }
 #homePic{
